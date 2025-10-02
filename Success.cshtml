@@ -1,0 +1,13 @@
+﻿@model LAB5.Models.Account
+
+@{
+    ViewData["Title"] = "Đăng ký thành công";
+}
+
+<h2>Đăng ký thành công!</h2>
+<p>Xin chào <strong>@Model.FullName</strong></p>
+<p>Email: @Model.Email</p>
+<p>Số điện thoại: @Model.Phone</p>
+<p>Ngày sinh: @Model.Birthday.ToShortDateString()</p>
+<p>Giới tính: @Model.Gender</p>
+<p>Facebook: @Model.Facebook</p>
